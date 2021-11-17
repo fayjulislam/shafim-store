@@ -5,7 +5,7 @@ import Swal from 'sweetalert2';
 
 const MakeAdmin = () => {
     const handleUpdate = (id) => {
-        const url = `http://localhost:5000/users/${id}`;
+        const url = `https://mysterious-anchorage-89196.herokuapp.com/users/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -27,7 +27,7 @@ const MakeAdmin = () => {
     // const {user} = useAuth();
     const [allUser, setAlluser] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://mysterious-anchorage-89196.herokuapp.com/users')
             .then((res) => res.json())
             .then((data) => setAlluser(data));
     });

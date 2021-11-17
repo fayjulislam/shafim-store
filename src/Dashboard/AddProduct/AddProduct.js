@@ -9,7 +9,7 @@ const AddProduct = () => {
     const history = useHistory();
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:5000/products', {
+        fetch('https://mysterious-anchorage-89196.herokuapp.com/products', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

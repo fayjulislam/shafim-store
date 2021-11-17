@@ -14,14 +14,14 @@ const AllProducts = () => {
         // https://mysterious-anchorage-89196.herokuapp.com
         // https://mysterious-anchorage-89196.herokuapp.com/
 
-        fetch("http://localhost:5000/products")
+        fetch("https://mysterious-anchorage-89196.herokuapp.com/products")
             .then((res) => res.json())
             .then((data) => setAllProducts(data));
     }, [user]);
     const handleProductDelete = (id) => {
         const proced = window.confirm('Are you Sure, Delete Your Data?');
         if (proced) {
-            const url = `http://localhost:5000/deleteallproduct/${id}`;
+            const url = `https://mysterious-anchorage-89196.herokuapp.com/deleteallproduct/${id}`;
 
             fetch(url, {
                 method: 'DELETE'

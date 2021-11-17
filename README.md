@@ -1,6 +1,6 @@
-# shafimStore : Online APPLE WATCH Shop !.
+# shafimStore : Online APPLE WATCH Shop !
 
-## Live Site Link : [shafimStore]()
+## Live Site Link : [shafimStore](https://shafim-store.web.app/)
 
 
 ### About Project 
