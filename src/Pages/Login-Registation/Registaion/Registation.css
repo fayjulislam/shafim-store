@@ -1,0 +1,12 @@
+.form-control{
+    border-radius: 30px;
+    border: 1px solid #198754;
+}
+
+.form-control label {
+    padding-left: 30px !important;
+}
+
+a{
+    text-decoration: none;
+}
